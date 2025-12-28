@@ -46,5 +46,5 @@
     "scripts/arcane-expansion.js"
   ],
   "manifest": "REPLACE_WITH_RAW_MODULE_JSON_URL",
-  "download": "REPLACE_WITH_GITHUB_RELEASE_ZIP_URL"
+  "download": "sha256:a0810fd37f484938391525ab094a60d31fca7ffc1ff716386c572cdf4ea7a207"
 }
