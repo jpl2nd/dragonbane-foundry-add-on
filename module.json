@@ -1,0 +1,50 @@
+{
+  "id": "dragonbane-arcane-expansion",
+  "title": "Dragonbane Arcane Expansion (Schema-Aligned)",
+  "description": "Schema-aligned spells/items/journals for Dragonbane Core Set 2.0 + casting macro to deduct WP and roll damage/healing.",
+  "version": "1.3.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "systems": [
+    "dragonbane"
+  ],
+  "packs": [
+    {
+      "name": "cantrips",
+      "label": "Dragonbane – Cantrips",
+      "type": "Item",
+      "path": "packs/cantrips.db"
+    },
+    {
+      "name": "spells",
+      "label": "Dragonbane – Spells",
+      "type": "Item",
+      "path": "packs/spells.db"
+    },
+    {
+      "name": "items",
+      "label": "Dragonbane – Items, Artifacts & Grimoires",
+      "type": "Item",
+      "path": "packs/items.db"
+    },
+    {
+      "name": "journals",
+      "label": "Dragonbane – Arcane Expansion (Journals)",
+      "type": "JournalEntry",
+      "path": "packs/journals.db"
+    },
+    {
+      "name": "macros",
+      "label": "Dragonbane – Arcane Expansion (Macros)",
+      "type": "Macro",
+      "path": "packs/macros.db"
+    }
+  ],
+  "esmodules": [
+    "scripts/arcane-expansion.js"
+  ],
+  "manifest": "REPLACE_WITH_RAW_MODULE_JSON_URL",
+  "download": "REPLACE_WITH_GITHUB_RELEASE_ZIP_URL"
+}
