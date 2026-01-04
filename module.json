@@ -10,41 +10,46 @@
   "systems": [
     "dragonbane"
   ],
-  "packs": [
-    {
-      "name": "cantrips",
-      "label": "Dragonbane – Cantrips",
-      "type": "Item",
-      "path": "packs/cantrips.db"
-    },
-    {
-      "name": "spells",
-      "label": "Dragonbane – Spells",
-      "type": "Item",
-      "path": "packs/spells.db"
-    },
-    {
-      "name": "items",
-      "label": "Dragonbane – Items, Artifacts & Grimoires",
-      "type": "Item",
-      "path": "packs/items.db"
-    },
-    {
-      "name": "journals",
-      "label": "Dragonbane – Arcane Expansion (Journals)",
-      "type": "JournalEntry",
-      "path": "packs/journals.db"
-    },
-    {
-      "name": "macros",
-      "label": "Dragonbane – Arcane Expansion (Macros)",
-      "type": "Macro",
-      "path": "packs/macros.db"
-    }
-  ],
   "esmodules": [
     "scripts/arcane-expansion.js"
   ],
+  "packs": [
+    {
+      "name": "cantrips",
+      "label": "Dragonbane - Cantrips",
+      "type": "Item",
+      "path": "packs/cantrips.db",
+      "system": "dragonbane"
+    },
+    {
+      "name": "spells",
+      "label": "Dragonbane - Spells",
+      "type": "Item",
+      "path": "packs/spells.db",
+      "system": "dragonbane"
+    },
+    {
+      "name": "items",
+      "label": "Dragonbane - Items, Artifacts & Grimoires",
+      "type": "Item",
+      "path": "packs/items.db",
+      "system": "dragonbane"
+    },
+    {
+      "name": "journals",
+      "label": "Dragonbane - Arcane Expansion (Journals)",
+      "type": "JournalEntry",
+      "path": "packs/journals.db",
+      "system": "dragonbane"
+    },
+    {
+      "name": "macros",
+      "label": "Dragonbane - Arcane Expansion (Macros)",
+      "type": "Macro",
+      "path": "packs/macros.db",
+      "system": "dragonbane"
+    }
+  ],
   "manifest": "https://raw.githubusercontent.com/jpl2nd/dragonbane-foundry-add-on/refs/heads/main/module.json",
-  "download": "sha256:a0810fd37f484938391525ab094a60d31fca7ffc1ff716386c572cdf4ea7a207"
+  "download": "https://github.com/jpl2nd/dragonbane-foundry-add-on/releases/latest/download/dragonbane-arcane-expansion.zip"
 }
