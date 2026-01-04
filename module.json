@@ -10,45 +10,122 @@
   "systems": [
     "dragonbane"
   ],
-  "esmodules": [
-    "scripts/arcane-expansion.js"
-  ],
   "packs": [
     {
-      "name": "cantrips",
-      "label": "Dragonbane - Cantrips",
+      "name": "spells-animism",
+      "label": "Spells – Animism",
       "type": "Item",
-      "path": "packs/cantrips.db",
-      "system": "dragonbane"
+      "system": "dragonbane",
+      "path": "packs/spells-animism.db",
+      "folder": "DBAE Spells"
     },
     {
-      "name": "spells",
-      "label": "Dragonbane - Spells",
+      "name": "spells-chronomage",
+      "label": "Spells – Chronomage",
       "type": "Item",
-      "path": "packs/spells.db",
-      "system": "dragonbane"
+      "system": "dragonbane",
+      "path": "packs/spells-chronomage.db",
+      "folder": "DBAE Spells"
+    },
+    {
+      "name": "spells-elementalism",
+      "label": "Spells – Elementalism",
+      "type": "Item",
+      "system": "dragonbane",
+      "path": "packs/spells-elementalism.db",
+      "folder": "DBAE Spells"
+    },
+    {
+      "name": "spells-mentalism",
+      "label": "Spells – Mentalism",
+      "type": "Item",
+      "system": "dragonbane",
+      "path": "packs/spells-mentalism.db",
+      "folder": "DBAE Spells"
+    },
+    {
+      "name": "spells-necromancy",
+      "label": "Spells – Necromancy",
+      "type": "Item",
+      "system": "dragonbane",
+      "path": "packs/spells-necromancy.db",
+      "folder": "DBAE Spells"
+    },
+    {
+      "name": "spells-voidmage",
+      "label": "Spells – Voidmage",
+      "type": "Item",
+      "system": "dragonbane",
+      "path": "packs/spells-voidmage.db",
+      "folder": "DBAE Spells"
+    },
+    {
+      "name": "cantrips-animism",
+      "label": "Cantrips – Animism",
+      "type": "Item",
+      "system": "dragonbane",
+      "path": "packs/cantrips-animism.db",
+      "folder": "DBAE Cantrips"
+    },
+    {
+      "name": "cantrips-chronomage",
+      "label": "Cantrips – Chronomage",
+      "type": "Item",
+      "system": "dragonbane",
+      "path": "packs/cantrips-chronomage.db",
+      "folder": "DBAE Cantrips"
+    },
+    {
+      "name": "cantrips-elementalism",
+      "label": "Cantrips – Elementalism",
+      "type": "Item",
+      "system": "dragonbane",
+      "path": "packs/cantrips-elementalism.db",
+      "folder": "DBAE Cantrips"
+    },
+    {
+      "name": "cantrips-mentalism",
+      "label": "Cantrips – Mentalism",
+      "type": "Item",
+      "system": "dragonbane",
+      "path": "packs/cantrips-mentalism.db",
+      "folder": "DBAE Cantrips"
+    },
+    {
+      "name": "cantrips-voidmage",
+      "label": "Cantrips – Voidmage",
+      "type": "Item",
+      "system": "dragonbane",
+      "path": "packs/cantrips-voidmage.db",
+      "folder": "DBAE Cantrips"
     },
     {
       "name": "items",
-      "label": "Dragonbane - Items, Artifacts & Grimoires",
+      "label": "Items & Artifacts",
       "type": "Item",
       "path": "packs/items.db",
-      "system": "dragonbane"
+      "system": "dragonbane",
+      "folder": "DBAE Items"
     },
     {
       "name": "journals",
-      "label": "Dragonbane - Arcane Expansion (Journals)",
+      "label": "Journals – Arcane Reference",
       "type": "JournalEntry",
       "path": "packs/journals.db",
-      "system": "dragonbane"
+      "system": "dragonbane",
+      "folder": "DBAE Journals"
     },
     {
       "name": "macros",
-      "label": "Dragonbane - Arcane Expansion (Macros)",
+      "label": "Macros – Arcane Automation",
       "type": "Macro",
       "path": "packs/macros.db",
-      "system": "dragonbane"
+      "system": "dragonbane",
+      "folder": "DBAE Macros"
     }
+  ],
+  "esmodules": [
+    "scripts/arcane-expansion.js"
   ],
   "manifest": "https://raw.githubusercontent.com/jpl2nd/dragonbane-foundry-add-on/refs/heads/main/module.json",
   "download": "https://github.com/jpl2nd/dragonbane-foundry-add-on/releases/latest/download/dragonbane-arcane-expansion.zip"
