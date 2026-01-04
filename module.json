@@ -128,5 +128,5 @@
     "scripts/arcane-expansion.js"
   ],
   "manifest": "https://raw.githubusercontent.com/jpl2nd/dragonbane-foundry-add-on/refs/heads/main/module.json",
-  "download": "https://github.com/jpl2nd/dragonbane-foundry-add-on/archive/refs/tags/v1.3.0.zip"
+  "download": "https://github.com/jpl2nd/dragonbane-foundry-add-on/archive/refs/tags/v1.3.1.zip"
 }
