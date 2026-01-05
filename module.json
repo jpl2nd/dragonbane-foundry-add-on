@@ -1,8 +1,8 @@
 {
   "id": "dragonbane-arcane-expansion",
-  "title": "Dragonbane Arcane Expansion (Schema-Aligned)",
-  "description": "Schema-aligned spells/items/journals for Dragonbane Core Set 2.0 + casting macro to deduct WP and roll damage/healing.",
-  "version": "1.3.0",
+  "title": "Dragonbane Arcane Expansion",
+  "description": "Spells, cantrips, items/artifacts, journals, and macros for Dragonbane. Consolidated packs with consistent Dragonbane schemas.",
+  "version": "1.3.1",
   "compatibility": {
     "minimum": "13",
     "verified": "13"
@@ -12,121 +12,44 @@
   ],
   "packs": [
     {
-      "name": "spells-animism",
-      "label": "Spells – Animism",
+      "name": "spells",
+      "label": "Dragonbane – Spells",
       "type": "Item",
       "system": "dragonbane",
-      "path": "packs/spells-animism.db",
-      "folder": "DBAE Spells"
+      "path": "packs/spells.db"
     },
     {
-      "name": "spells-chronomage",
-      "label": "Spells – Chronomage",
+      "name": "cantrips",
+      "label": "Dragonbane – Cantrips",
       "type": "Item",
       "system": "dragonbane",
-      "path": "packs/spells-chronomage.db",
-      "folder": "DBAE Spells"
-    },
-    {
-      "name": "spells-elementalism",
-      "label": "Spells – Elementalism",
-      "type": "Item",
-      "system": "dragonbane",
-      "path": "packs/spells-elementalism.db",
-      "folder": "DBAE Spells"
-    },
-    {
-      "name": "spells-mentalism",
-      "label": "Spells – Mentalism",
-      "type": "Item",
-      "system": "dragonbane",
-      "path": "packs/spells-mentalism.db",
-      "folder": "DBAE Spells"
-    },
-    {
-      "name": "spells-necromancy",
-      "label": "Spells – Necromancy",
-      "type": "Item",
-      "system": "dragonbane",
-      "path": "packs/spells-necromancy.db",
-      "folder": "DBAE Spells"
-    },
-    {
-      "name": "spells-voidmage",
-      "label": "Spells – Voidmage",
-      "type": "Item",
-      "system": "dragonbane",
-      "path": "packs/spells-voidmage.db",
-      "folder": "DBAE Spells"
-    },
-    {
-      "name": "cantrips-animism",
-      "label": "Cantrips – Animism",
-      "type": "Item",
-      "system": "dragonbane",
-      "path": "packs/cantrips-animism.db",
-      "folder": "DBAE Cantrips"
-    },
-    {
-      "name": "cantrips-chronomage",
-      "label": "Cantrips – Chronomage",
-      "type": "Item",
-      "system": "dragonbane",
-      "path": "packs/cantrips-chronomage.db",
-      "folder": "DBAE Cantrips"
-    },
-    {
-      "name": "cantrips-elementalism",
-      "label": "Cantrips – Elementalism",
-      "type": "Item",
-      "system": "dragonbane",
-      "path": "packs/cantrips-elementalism.db",
-      "folder": "DBAE Cantrips"
-    },
-    {
-      "name": "cantrips-mentalism",
-      "label": "Cantrips – Mentalism",
-      "type": "Item",
-      "system": "dragonbane",
-      "path": "packs/cantrips-mentalism.db",
-      "folder": "DBAE Cantrips"
-    },
-    {
-      "name": "cantrips-voidmage",
-      "label": "Cantrips – Voidmage",
-      "type": "Item",
-      "system": "dragonbane",
-      "path": "packs/cantrips-voidmage.db",
-      "folder": "DBAE Cantrips"
+      "path": "packs/cantrips.db"
     },
     {
       "name": "items",
-      "label": "Items & Artifacts",
+      "label": "Dragonbane – Items & Artifacts",
       "type": "Item",
-      "path": "packs/items.db",
       "system": "dragonbane",
-      "folder": "DBAE Items"
+      "path": "packs/items.db"
     },
     {
       "name": "journals",
-      "label": "Journals – Arcane Reference",
+      "label": "Dragonbane – Arcane Expansion (Journals)",
       "type": "JournalEntry",
-      "path": "packs/journals.db",
       "system": "dragonbane",
-      "folder": "DBAE Journals"
+      "path": "packs/journals.db"
     },
     {
       "name": "macros",
-      "label": "Macros – Arcane Automation",
+      "label": "Dragonbane – Arcane Expansion (Macros)",
       "type": "Macro",
-      "path": "packs/macros.db",
       "system": "dragonbane",
-      "folder": "DBAE Macros"
+      "path": "packs/macros.db"
     }
   ],
   "esmodules": [
     "scripts/arcane-expansion.js"
   ],
-  "manifest": "https://raw.githubusercontent.com/jpl2nd/dragonbane-foundry-add-on/refs/heads/main/module.json",
-  "download": "https://github.com/jpl2nd/dragonbane-foundry-add-on/archive/refs/tags/v1.3.1.zip"
+  "manifest": "REPLACE_WITH_RAW_MODULE_JSON_URL",
+  "download": "REPLACE_WITH_GITHUB_RELEASE_ZIP_URL"
 }
