@@ -50,6 +50,6 @@
   "esmodules": [
     "scripts/arcane-expansion.js"
   ],
-  "manifest": "REPLACE_WITH_RAW_MODULE_JSON_URL",
-  "download": "REPLACE_WITH_GITHUB_RELEASE_ZIP_URL"
+  "manifest": "https://raw.githubusercontent.com/jpl2nd/dragonbane-foundry-add-on/refs/heads/main/module.json",
+  "download": "https://github.com/jpl2nd/dragonbane-foundry-add-on/archive/refs/tags/v1.3.2.zip"
 }
