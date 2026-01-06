@@ -1,0 +1,24 @@
+{
+  "name": "dragonbane-foundry-add-on",
+  "version": "1.0.0",
+  "description": "This module provides compendiums for: - Cantrips (Items of type `spell`) - Spells (Items of type `spell`) - Items / Artifacts / Grimoires (Items) - Journals (Mishaps & Corruption, Fracture, Grimoires) - Macros (Cast Spell helper)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jpl2nd/dragonbane-foundry-add-on.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/jpl2nd/dragonbane-foundry-add-on/issues"
+  },
+  "homepage": "https://github.com/jpl2nd/dragonbane-foundry-add-on#readme",
+  "dependencies": {
+    "level": "^10.0.0"
+  }
+}
